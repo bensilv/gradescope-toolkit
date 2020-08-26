@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="mdb.min.css" rel="stylesheet">
+    <style>
+      h3 {
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        color: #00b0ff;
+      }
+      h4 {
+        font-size: 1em;
+        font-weight: bold;
+        margin-bottom: 0.2em;
+      }
+      .custom-control {
+        margin-bottom: 1em;
+      }
+      h5 {
+        font-size: 10px;
+        margin-bottom: 0.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" style="padding-left:2em; padding-right:2em; padding-top:1em; padding-bottom:1em;">
+      <div class="row justify-content-center">
+        <h3 style="font-size:1em; font-weight: bold; text-align: center">Gradescope Toolkit!</h3>
+      </div>
+      <div class="row justify-content-center">
+          <h4 class="row">Colors</h4>
+      </div>
+      <div class="row justify-content-center">
+        <div class="custom-control custom-switch justify-content-center">
+          <input type="checkbox" class="custom-control-input" id="runningToggle" checked>
+          <label class="custom-control-label" for="runningToggle"></label>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+          <h4 class="row">Run Output</h4>
+      </div>
+      <div class="row justify-content-center">
+        <div class="custom-control custom-switch justify-content-center">
+          <input type="checkbox" class="custom-control-input" id="autoOutputToggle" checked>
+          <label class="custom-control-label" for="autoOutputToggle"></label>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+          <h4 class="row">Public Results</h4>
+      </div>
+      <div class="row justify-content-center">
+        <div class="custom-control custom-switch justify-content-center">
+          <input type="checkbox" class="custom-control-input" id="pubResultsToggle" checked>
+          <label class="custom-control-label" for="pubResultsToggle"></label>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+          <h4 class="row">Problems</h4>
+      </div>
+      <div class="row justify-content-center">
+        <select class="btn-sm btn-primary browser-default custom-select" id="prob-selector">
+          <option selected value="all">All</option>
+        </select>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col">
+        <div class="row justify-content-center"><h5>Made By:</h5></div>
+        <div class="row justify-content-center"><h5>Ben Silverman (bsilverm)</h5></div>
+        <div class="row justify-content-center"><a href="mailto:benjaminsilverman7@gmail.com"><h5 style="margin-bottom:1em;">Contact</h5></a></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="jquery-3.5.1.min.js">
+    </script><script type="text/javascript" src="popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="mdb.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>
